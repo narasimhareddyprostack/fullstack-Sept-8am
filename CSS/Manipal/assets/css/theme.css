@@ -1,0 +1,8 @@
+nav {
+  background-color: green;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+nav a {
+  text-decoration: none;
+}
