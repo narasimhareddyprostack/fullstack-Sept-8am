@@ -1,0 +1,19 @@
+What is Js Object?
+//how to find is object is empty or not
+
+
+- group of data and functionality 
+- group of key:value pairs 
+
+=====================
+JS Object and Array - Proto 
+
+class Array{ // properties and methods 
+  length;
+  push(){}
+  pop(){}
+}
+class Object{ 
+    // properties and methods
+    keys(){}
+}
