@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Form Validations</title>
+    <script src="./assets/js/validate.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <p id="para"></p>
+    <form>
+      <label>Email</label>
+      <input type="text"  name="email" />
+      <span id="message"></span>
+
+      <br />
+      <br />
+      <label>Password</label>
+      <input type="text" id="password" />
+      <span id="passwordMessage" style="color: red"></span>
+      <br />
+      <br />
+      <input type="submit" value="Registration" onclick="validateForm()" />
+    </form>
+  </body>
+</html>
