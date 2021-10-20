@@ -5,9 +5,9 @@
   </head>
   <body>
     <p id="para"></p>
-    <form>
+    <form onsubmit="return validateForm()">
       <label>Email</label>
-      <input type="text"  name="email" />
+      <input type="text" id="email" />
       <span id="message"></span>
 
       <br />
@@ -17,7 +17,7 @@
       <span id="passwordMessage" style="color: red"></span>
       <br />
       <br />
-      <input type="submit" value="Registration" onclick="validateForm()" />
+      <input type="submit" value="Registration" />
     </form>
   </body>
 </html>
